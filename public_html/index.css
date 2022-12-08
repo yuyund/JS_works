@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto 0 auto;
+    max-width: 650px;
+}
+
+body * {
+    box-sizing: border-box;
+    /* background-color: cadetblue; */
+    /* border: 1px solid #000; */
+    text-align: center;
+}
+
+p {
+    line-height: 4rem;
+    color: rgb(95, 95, 95);
+}
+
+.menu {
+    vertical-align: middle;
+    height: 5rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    border-radius: 2rem/2rem;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    background-color: rgb(255, 159, 124);
+    transition: all 0.2s;
+}
+
+a:hover {
+    height: 5.5rem;
+    width: 11rem;
+    margin: 0;
+    color: cornsilk;
+}
+
