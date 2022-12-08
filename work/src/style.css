@@ -1,0 +1,34 @@
+body * {
+    transition: all 0.3s 0s linear;
+}
+
+.fadeout {
+    opacity: 0.3;
+}
+
+.fadein {
+    opacity: 1;
+}
+
+.choice {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.question {
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+.result {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.result * {
+    font-size: 1rem;
+}
+
+th {
+    width: 10%;
+}
